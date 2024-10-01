@@ -22,6 +22,6 @@ public class ArrayFileReader {
                 }
             }
         }
-        return null; // Если не удалось прочитать ни одной корректной строки
+        return null;
     }
 }

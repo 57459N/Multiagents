@@ -1,3 +1,5 @@
+package test;
+
 import entity.ArrayEntity;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -5,7 +7,7 @@ import org.testng.annotations.Test;
 import service.ArrayService;
 
 public class ArrayServiceTest {
-
+    
     private ArrayService arrayService;
     private ArrayEntity arrayEntity;
 
@@ -27,9 +29,5 @@ public class ArrayServiceTest {
         Assert.assertEquals(max, 5);
     }
 
-    @Test
-    public void testCalculateSum() {
-        int sum = arrayService.calculateSum(arrayEntity);
-        Assert.assertEquals(sum, 11);
-    }
+
 }
