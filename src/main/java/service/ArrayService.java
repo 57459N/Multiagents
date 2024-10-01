@@ -4,6 +4,8 @@ import entity.ArrayEntity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.function.IntPredicate;
+
 public class ArrayService {
     private static final Logger logger = LogManager.getLogger(ArrayService.class);
 
@@ -31,14 +33,14 @@ public class ArrayService {
         return max;
     }
 
-    public void replaceElements(ArrayEntity arrayEntity, int oldValue, int newValue) {
+    public void replaceElements(ArrayEntity arrayEntity, int newValue, IntPredicate condition) {
         int[] array = arrayEntity.getArray();
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == oldValue) {
+            if (condition.test(array[i])) {
                 array[i] = newValue;
             }
         }
-        logger.info("Элементы массива заменены: {} на {}", oldValue, newValue);
+        logger.info("Элементы массива заменены на {}", newValue);
     }
 
     public double calculateAverage(ArrayEntity arrayEntity) {
