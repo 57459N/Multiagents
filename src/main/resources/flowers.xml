@@ -32,5 +32,228 @@
         </GrowingTips>
         <Multiplying>Семена</Multiplying>
     </Flower>
-    <!-- Добавьте еще 14 растений для достижения 16 сущностей -->
+    <Flower id="flower3">
+        <Name>Лилия</Name>
+        <Soil>Подзолистая</Soil>
+        <Origin>Китай</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Белый</Parameter>
+            <Parameter type="leafColor">Темно-зеленый</Parameter>
+            <Parameter type="averageSize">70 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">20-25</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">180</Tip>
+        </GrowingTips>
+        <Multiplying>Луковицами</Multiplying>
+    </Flower>
+    <Flower id="flower4">
+        <Name>Герань</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Южная Африка</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Зеленый</Parameter>
+            <Parameter type="leafColor">Светло-зеленый</Parameter>
+            <Parameter type="averageSize">40 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">15-22</Tip>
+            <Tip type="light">Полусвет</Tip>
+            <Tip type="watering">100</Tip>
+        </GrowingTips>
+        <Multiplying>Черенками</Multiplying>
+    </Flower>
+    <Flower id="flower5">
+        <Name>Каллы</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Африка</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Зеленый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">60 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">18-25</Tip>
+            <Tip type="light">Полусвет</Tip>
+            <Tip type="watering">250</Tip>
+        </GrowingTips>
+        <Multiplying>Луковицами</Multiplying>
+    </Flower>
+    <Flower id="flower6">
+        <Name>Фиалка</Name>
+        <Soil>Дерново-подзолистая</Soil>
+        <Origin>Северная Америка</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Зеленый</Parameter>
+            <Parameter type="leafColor">Темно-зеленый</Parameter>
+            <Parameter type="averageSize">15 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">16-22</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">50</Tip>
+        </GrowingTips>
+        <Multiplying>Листьями</Multiplying>
+    </Flower>
+    <Flower id="flower7">
+        <Name>Бегония</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Южная Америка</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Красный</Parameter>
+            <Parameter type="leafColor">Серый</Parameter>
+            <Parameter type="averageSize">30 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">20-22</Tip>
+            <Tip type="light">Полусвет</Tip>
+            <Tip type="watering">120</Tip>
+        </GrowingTips>
+        <Multiplying>Черенками</Multiplying>
+    </Flower>
+    <Flower id="flower8">
+        <Name>Орхидея</Name>
+        <Soil>Подзолистая</Soil>
+        <Origin>Тропики</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Фиолетовый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">40 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">22-28</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">180</Tip>
+        </GrowingTips>
+        <Multiplying>Черенками</Multiplying>
+    </Flower>
+    <Flower id="flower9">
+        <Name>Гвоздика</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Европа</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Розовый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">30 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">15-20</Tip>
+            <Tip type="light">Полусвет</Tip>
+            <Tip type="watering">100</Tip>
+        </GrowingTips>
+        <Multiplying>Семена</Multiplying>
+    </Flower>
+    <Flower id="flower10">
+        <Name>Петунья</Name>
+        <Soil>Дерново-подзолистая</Soil>
+        <Origin>Америка</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Синий</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">25 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">18-22</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">200</Tip>
+        </GrowingTips>
+        <Multiplying>Черенками</Multiplying>
+    </Flower>
+    <Flower id="flower11">
+        <Name>Лаванда</Name>
+        <Soil>Подзолистая</Soil>
+        <Origin>Средиземноморье</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Серый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">40 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">15-25</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">80</Tip>
+        </GrowingTips>
+        <Multiplying>Семена</Multiplying>
+    </Flower>
+    <Flower id="flower12">
+        <Name>Космея</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Мексика</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Белый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">60 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">16-22</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">120</Tip>
+        </GrowingTips>
+        <Multiplying>Семена</Multiplying>
+    </Flower>
+    <Flower id="flower13">
+        <Name>Гортензия</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Япония</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Голубой</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">70 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">15-20</Tip>
+            <Tip type="light">Полусвет</Tip>
+            <Tip type="watering">200</Tip>
+        </GrowingTips>
+        <Multiplying>Черенками</Multiplying>
+    </Flower>
+    <Flower id="flower14">
+        <Name>Мальва</Name>
+        <Soil>Подзолистая</Soil>
+        <Origin>Европа</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Фиолетовый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">90 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">20-24</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">300</Tip>
+        </GrowingTips>
+        <Multiplying>Семена</Multiplying>
+    </Flower>
+    <Flower id="flower15">
+        <Name>Сирень</Name>
+        <Soil>Дерново-подзолистая</Soil>
+        <Origin>Северная Америка</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Лиловый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">150 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">10-20</Tip>
+            <Tip type="light">Полусвет</Tip>
+            <Tip type="watering">250</Tip>
+        </GrowingTips>
+        <Multiplying>Черенками</Multiplying>
+    </Flower>
+    <Flower id="flower16">
+        <Name>Хризантема</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Китай</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Желтый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">45 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">18-26</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">220</Tip>
+        </GrowingTips>
+        <Multiplying>Семена</Multiplying>
+    </Flower>
 </Flowers>
