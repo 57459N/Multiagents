@@ -25,15 +25,18 @@ public class StAXFlowerParser implements FlowerParser {
     @Override
     public List<Flower> parse(String filePath) throws FileNotFoundException {
         List<Flower> flowers = new ArrayList<>();
-        logger.info("Processing file: {}", filePath);
         XMLInputFactory factory = XMLInputFactory.newInstance();
         XMLEventReader eventReader;
         try {
             eventReader = factory.createXMLEventReader(new FileReader(filePath));
-        } catch (XMLStreamException e) {
+        } catch (FileNotFoundException e)  {
+            logger.error("File not found: {}", filePath);
+            throw new FileNotFoundException(e.getMessage());
+        }catch (XMLStreamException e) {
             logger.error("Error while parsing {}: {}", filePath, e.getMessage());
             throw new RuntimeException(e);
         }
+        logger.info("Processing file: {}", filePath);
 
         Flower currentFlower = null;
         StringBuilder currentValue = new StringBuilder();

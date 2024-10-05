@@ -24,10 +24,15 @@ public class SAXFlowerParser implements FlowerParser {
     public List<Flower> parse(String filePath) throws RuntimeException, FileNotFoundException {
         List<Flower> flowers = new ArrayList<>();
         try {
+            File file = new File(filePath);
+            if (!file.exists()) {
+                throw new FileNotFoundException("File not found: " + filePath);
+            }
+
             logger.info("Processing file: {}", filePath);
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
-            saxParser.parse(new File(filePath), new FlowerHandler(flowers));
+            saxParser.parse(file, new FlowerHandler(flowers));
             logger.info("Successfully parsed {} flowers", flowers.size());
         } catch (FileNotFoundException e) {
             logger.error("File not found: {}", filePath);

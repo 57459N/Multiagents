@@ -25,7 +25,6 @@ public class DOMFlowerParser implements FlowerParser {
     public List<Flower> parse(String filePath) throws FileNotFoundException {
         List<Flower> flowers = new ArrayList<>();
 
-        logger.info("Processing file: {}", filePath);
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         Document document = null;
         try {
@@ -41,6 +40,7 @@ public class DOMFlowerParser implements FlowerParser {
         } catch (IOException | SAXException e) {
             throw new RuntimeException(e);
         }
+        logger.info("Processing file: {}", filePath);
         document.getDocumentElement().normalize();
 
         NodeList flowerList = document.getElementsByTagName("Flower");
