@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flowers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="flowers.xsd">
+    <Flower id="flower1">
+        <Name>Роза</Name>
+        <Soil>Грунтовая</Soil>
+        <Origin>Иран</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Красный</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">50 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">18-24</Tip>
+            <Tip type="light">Светолюбиво</Tip>
+            <Tip type="watering">200</Tip>
+        </GrowingTips>
+        <Multiplying>Черенками</Multiplying>
+    </Flower>
+    <Flower id="flower2">
+        <Name>Тюльпан</Name>
+        <Soil>Дерново-подзолистая</Soil>
+        <Origin>Турция</Origin>
+        <VisualParameters>
+            <Parameter type="stemColor">Желтый</Parameter>
+            <Parameter type="leafColor">Зеленый</Parameter>
+            <Parameter type="averageSize">30 см</Parameter>
+        </VisualParameters>
+        <GrowingTips>
+            <Tip type="temperature">15-20</Tip>
+            <Tip type="light">Полусвет</Tip>
+            <Tip type="watering">150</Tip>
+        </GrowingTips>
+        <Multiplying>Семена</Multiplying>
+    </Flower>
+    <!-- Добавьте еще 14 растений для достижения 16 сущностей -->
+</Flowers>
