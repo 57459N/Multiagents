@@ -12,7 +12,6 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.XMLEvent;
 import javax.xml.stream.events.StartElement;
 import javax.xml.stream.events.EndElement;
-import javax.xml.stream.events.Characters;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;

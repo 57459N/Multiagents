@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import parser.SAXFlowerParser;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.List;
 

@@ -17,7 +17,7 @@ public class StAXFlowerParserTest {
     @BeforeClass
     public void setUp() {
         stAXFlowerParser = new StAXFlowerParser();
-        xmlFilePath = "src/main/resources/flowers.xml"; // Ensure this path is correct
+        xmlFilePath = "src/main/resources/flowers.xml";
     }
 
     @Test
@@ -44,7 +44,7 @@ public class StAXFlowerParserTest {
 
     @Test
     public void testParseInvalidFile() {
-        String invalidXmlFilePath = "invalid_flowers.xml"; // Ensure this path is invalid
+        String invalidXmlFilePath = "invalid_flowers.xml";
         Assert.assertThrows(FileNotFoundException.class, () -> stAXFlowerParser.parse(invalidXmlFilePath));
     }
 }

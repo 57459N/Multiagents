@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import parser.DOMFlowerParser;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.List;
 
@@ -18,7 +17,7 @@ public class DOMFlowerParserTest {
     @BeforeClass
     public void setUp() {
         domFlowerParser = new DOMFlowerParser();
-        xmlFilePath = "src/main/resources/flowers.xml"; // Ensure this path is correct
+        xmlFilePath = "src/main/resources/flowers.xml";
     }
 
     @Test
@@ -46,6 +45,6 @@ public class DOMFlowerParserTest {
     @Test
     public void testParseInvalidFile() {
         String invalidXmlFilePath = "invalid_flowers.xml";
-        Assert.assertThrows(FileNotFoundException.class, () ->domFlowerParser.parse(invalidXmlFilePath));
+        Assert.assertThrows(FileNotFoundException.class, () -> domFlowerParser.parse(invalidXmlFilePath));
     }
 }
