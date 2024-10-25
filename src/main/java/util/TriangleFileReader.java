@@ -6,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Objects;
@@ -15,9 +16,9 @@ import java.util.stream.Stream;
 public class TriangleFileReader {
     private static final Logger logger = LogManager.getLogger(TriangleFileReader.class);
 
-    public static Triangle[] readFromFile(String path) {
+    public static Triangle[] readFromFile(Path path) {
         logger.info(String.format("Reading file: %s", path));
-        try (Stream<String> lines = Files.lines(Paths.get(path))) {
+        try (Stream<String> lines = Files.lines(path)) {
             List<Triangle> triangles = lines
                     .map(TriangleFileReader::processLine)
                     .filter(Objects::nonNull)
