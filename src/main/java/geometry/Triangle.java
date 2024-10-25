@@ -3,9 +3,9 @@ package geometry;
 import java.util.Objects;
 
 public class Triangle extends Shape {
-    private Point point1;
-    private Point point2;
-    private Point point3;
+    private final Point point1;
+    private final Point point2;
+    private final Point point3;
 
     public Triangle(String name, Point p1, Point p2, Point p3) {
         super(name);

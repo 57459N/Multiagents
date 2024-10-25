@@ -5,8 +5,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import util.TriangleFileReader;
 
-import java.nio.file.Paths;
-
 public class TriangleFileReaderTest {
 
     @Test
